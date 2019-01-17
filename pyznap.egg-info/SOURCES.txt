@@ -1,6 +1,7 @@
 MANIFEST.in
 README.md
 setup.cfg
+setup.py
 pyznap/__init__.py
 pyznap/clean.py
 pyznap/main.py

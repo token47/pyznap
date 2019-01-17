@@ -2,7 +2,7 @@ Source: pyznap
 Section: unknown
 Priority: optional
 Maintainer: Andre Ruiz <andre.ruiz@canonical.com>
-Build-Depends: debhelper (>= 10), python-setuptools, python-pip
+Build-Depends: debhelper (>= 10), python3, dh-python, python-setuptools, python-pip
 Standards-Version: 4.1.2
 Homepage: https://github.com/yboetz/pyznap
 #Vcs-Git: https://anonscm.debian.org/git/collab-maint/pyznap.git
@@ -10,7 +10,8 @@ Homepage: https://github.com/yboetz/pyznap
 
 Package: pyznap
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-configparser, python-paramiko
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, 
+	python, python-configparser, python3-paramiko
 Description: pyznap is a ZFS snapshot management tool. It automatically takes and deletes
  snapshots and can send them to different backup locations. You can specify a policy for
  a given filesystem in the pyznap.conf file and then use cron to let it run regularly.
