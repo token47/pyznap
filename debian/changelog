@@ -1,0 +1,5 @@
+pyznap (1.1.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- root <andre.ruiz@canonical.com>  Wed, 16 Jan 2019 15:26:18 +0000
