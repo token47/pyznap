@@ -1,5 +1,11 @@
-pyznap (1.1.2-1) unstable; urgency=medium
+pyznap (1.1.2-2) cosmic; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Revision bump
 
- -- root <andre.ruiz@canonical.com>  Wed, 16 Jan 2019 15:26:18 +0000
+ -- Andre Ruiz <andre.ruiz@canonical.com>  Wed, 31 Jan 2019 19:21:00 -2000
+
+pyznap (1.1.2-1) cosmic; urgency=low
+
+  * Initial release, probably full of bugs.
+
+ -- Andre Ruiz <andre.ruiz@canonical.com>  Wed, 16 Jan 2019 15:26:18 +0000

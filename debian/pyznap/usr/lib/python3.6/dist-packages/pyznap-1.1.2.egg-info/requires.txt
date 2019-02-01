@@ -1,7 +1,0 @@
-configparser>=3.5.0
-paramiko>=2.4.2
-
-[dev]
-pytest-dependency==0.2
-pytest-runner
-pytest==3.3.0

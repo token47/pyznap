@@ -1,8 +1,8 @@
 Source: pyznap
-Section: unknown
+Section: utils
 Priority: optional
 Maintainer: Andre Ruiz <andre.ruiz@canonical.com>
-Build-Depends: debhelper (>= 10), python3, dh-python, python-setuptools, python-pip
+Build-Depends: debhelper (>= 10), python3, dh-python, python3-setuptools, python3-pip
 Standards-Version: 4.1.2
 Homepage: https://github.com/yboetz/pyznap
 #Vcs-Git: https://anonscm.debian.org/git/collab-maint/pyznap.git
@@ -17,4 +17,7 @@ Description: pyznap is a ZFS snapshot management tool. It automatically takes an
  a given filesystem in the pyznap.conf file and then use cron to let it run regularly.
  pyznap includes zfs bindings for python, forked and modified from
  https://bitbucket.org/stevedrake/weir/.
+ .
+ ATTENTION: this package is alpha quality and is not to be trusted yet, please test
+            it in a sandbox, please.
 

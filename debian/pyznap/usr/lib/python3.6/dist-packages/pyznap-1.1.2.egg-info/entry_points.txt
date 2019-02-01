@@ -1,3 +1,0 @@
-[console_scripts]
-pyznap = pyznap.main:main
-
